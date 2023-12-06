@@ -5,7 +5,7 @@
     "permissions":[
       "storage"
     ],
-    "description": "Añade la funcionalidad de obtener datos extras del paciente, como el numero de cuil según el número de documento y sexo",
+    "description": "Añade la funcionalidad de obtener un QR provisorio con los datos de afiliado de PAMI",
     "icons":{
       "16":"images/16.png",
       "32":"images/32.png",
