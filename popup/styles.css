@@ -1,26 +1,90 @@
-.bn3637 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.2rem 1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    backface-visibility: hidden;
-    border: 0.3rem solid transparent;
-    border-radius: 3rem;
-  }
-  
-  .bn37 {
-    border-color: transparent;
-    background-color: #fff;
-    color: #000;
-    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
-  }
-    
-  .bn37:hover {
-    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
-  }
+body,
+html {
+  font-family: "robotoregular", sans-serif !important;
+  font-size: 24px !important;
+  color: #454545 !important;
+  margin: 0;
+
+  min-width: 380px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img{
+  margin: 20px;
+}
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-alineado{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-family: "robotobold", sans-serif !important;
+  font-weight: normal !important;
+}
+
+.form-control {
+  border: 1px solid #0032a0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #0032a0 !important;
+  font-size: 24px !important;
+  height: 45px !important;
+  line-height: 45px !important;
+  width: auto;
+  margin: 0px 5px;
+}
+
+
+.boton {
+  font-family: "robotobold", sans-serif !important;
+  background-color: #0032a0 !important;
+  border: none !important;
+  color: #fff !important;
+  padding: 7px 15px !important;
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  text-transform: uppercase !important;
+  margin-right: 15px;
+  display: inline-block !important;
+  text-align: center !important;
+  line-height: 1.42857143 !important;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 10px 0px;
+}
+
+.boton:hover {
+  background-color: #00a5e1 !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.boton:focus {
+  background-color: #00a5e1 !important;
+  text-decoration: none !important;
+  outline-offset: 0px !important;
+}
+
+.boton:disabled {
+  background-color: #8aafdb !important;
+  cursor: not-allowed;
+}
+
+

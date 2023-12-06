@@ -1,7 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Pami: Credencial Provisoria",
-    "version": "0.0.1",
+    "version": "0.2.0",
+    "permissions":[
+      "storage"
+    ],
     "description": "Añade la funcionalidad de obtener datos extras del paciente, como el numero de cuil según el número de documento y sexo",
     "icons":{
       "16":"images/16.png",
@@ -15,7 +18,9 @@
     "content_scripts": [
       {
         "js": [
-          "scripts/content.js"
+          "scripts/pageContent.js",
+          "scripts/qrcode.min.js",
+          "scripts/popupScript.js"
         ],
         "matches": [
          "https://www.pami.org.ar/credencial-provisoria"  
